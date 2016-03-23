@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Link, browserHistory } from 'react-router'
 
-import Quiz from './components/Main';
+import Quiz from './components/Quiz';
 
 // Render the main component into the dom
 ReactDOM.render((
