@@ -1,0 +1,9 @@
+export default [{
+  title:'One',
+  answers:[
+    'A1',
+    'A2',
+    'A3'
+  ],
+  score: ['a','b','c']
+}];

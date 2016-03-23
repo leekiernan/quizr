@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "quiz",
+    "style": "scss",
+    "postcss": true
+  }
+}
