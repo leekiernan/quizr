@@ -7,16 +7,16 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import NoMatchComponent from 'components//NoMatchComponent.js';
+import NotFoundComponent from 'components//NotFoundComponent.js';
 
-describe('NoMatchComponent', () => {
+describe('NotFoundComponent', () => {
   let component;
 
   beforeEach(() => {
-    component = createComponent(NoMatchComponent);
+    component = createComponent(NotFoundComponent);
   });
 
   it('should have its component name as default className', () => {
-    expect(component.props.className).to.equal('nomatch-component');
+    expect(component.props.className).to.equal('notfound-component');
   });
 });

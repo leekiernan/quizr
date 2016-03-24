@@ -6,6 +6,8 @@ require('styles//Result.scss');
 
 class ResultComponent extends React.Component {
   render() {
+    console.log('hi there');
+
     return (
       <div className="result-component">
         Please edit src/components///ResultComponent.js to update this component!
